@@ -2,13 +2,29 @@ body
 {
     margin: 0;
     padding: 0;
+    background-color: black
 }
 
-/*BACKGROUND ANIME*/
-#particles-js
+/*BACKGROUND ANIME PARTICLES.JS*/
+.particles-js-canvas-el
 {
-    z-index: 2;
-    width: 100vw;
+    position: fixed;
+    top: 0;
+/*    background-color: black*/
+}
+
+#accueil, #presentation
+{
     height: 100vh;
-    background-color: red;
+    width: 100vw;
+}
+
+*
+{
+    color: darkgoldenrod;
+}
+
+#presentation
+{
+    
 }
