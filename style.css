@@ -118,13 +118,15 @@ a
 {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 svg
 {
     position: relative;
-    margin-top: 40vh;
-    width: 50%;
+    margin-top: 20vh;
+    width: 70%;
+/*    margin: auto;*/
 /*    height: 100%;*/
     
 }
