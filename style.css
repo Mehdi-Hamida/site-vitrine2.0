@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap');
+
 body
 {
     margin: 0;
@@ -12,6 +14,12 @@ body
     color: darkgoldenrod;
 }
 
+@font-face 
+{
+    font-family: 'Argesta Headline';
+    src: url('fonts/Argesta Headline.otf');
+}
+
 /*NAVBAR*/
 
 header
@@ -21,7 +29,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 65px;
+/*    height: 6px;*/
     width: 100vw;
 }
 
@@ -164,7 +172,35 @@ svg
 
 #presentation
 {
-    
+/*    padding-top: 10vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#presentation p
+{
+    font-family: 'Argesta Headline';
+    font-weight: 100;
+    font-size: 200%;
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+}
+
+h1
+{
+    font-family: 'Argesta Headline';
+    font-weight: 100;
+    font-size: 250%;
+}
+
+#presentation blockquote
+{
+    font-family: 'Alegreya sans', sans-serif;
+    font-weight: 100;
+    font-size: 150%;
+    color: #b8b8b8;
 }
 
 /*SECTION 3 - ?*/
