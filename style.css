@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
 body
 {
     margin: 0;
@@ -179,7 +181,7 @@ svg
     flex-direction: column;
 }
 
-#presentation p
+#presentation #lyon
 {
     font-family: 'Argesta Headline';
     font-weight: 100;
@@ -201,8 +203,32 @@ h1
     font-weight: 100;
     font-size: 150%;
     color: #b8b8b8;
+    text-align: justify;
+    width: 12.5em;
+    line-height: 1.5em;
 }
 
+.quote1, .quote2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+/*    display: block;*/
+}
+
+.quote1
+{
+/*    display: block;*/
+    margin-left: -0.7em;
+    margin-bottom: -0.6em;
+}
+
+.quote2
+{
+/*    display: block;*/
+    margin-left: 8.5em;
+    margin-top: -0.2em;
+}
 /*SECTION 3 - ?*/
 
 /*SECTION 4 - ?*/
