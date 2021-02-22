@@ -134,13 +134,14 @@ a
 svg
 {
     position: relative;
-    margin-top: 35vh;
-    width: 80vw;
+    margin-top: 16em;
+    width: 20em;
 /*    margin: auto;*/
 /*    height: 100%;*/
     
 }
 
+/*
 @media (min-width: 768px) and (min-height: 1024px)
 {
     svg
@@ -156,6 +157,7 @@ svg
         width: 30vw;
     }
 }
+*/
 
 .text
 {
@@ -169,6 +171,13 @@ svg
     to{
         stroke-dashoffset: 0;
     }
+}
+
+#separateur
+{
+    position: absolute;
+    width: 20em;
+    margin-top: 1em;
 }
 
 /*SECTION 2 - PRESENTATION*/
